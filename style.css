@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    /* opacity: 1; */
+   
+}
+body{
+    font-family: montserrat;
+}
+nav{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(236, 24, 24);
+    /* display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: fixed;
+    box-shadow: 0px 0px 5px gray;
+    z-index: 1001; */
+}
+label.logo{
+    color: black;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    background: rgb(235, 151, 151);
+    transition: .5s;
+}
